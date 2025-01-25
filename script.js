@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function(){
     const taskText = taskInput.value.trim();
     if (taskText !== "") {
       tasks.push(taskText); 
-      populateDOMDOM(taskText); 
+      populateDOM(taskText); 
       saveToLocalStorage(); 
 
       taskInput.value = ""; 
